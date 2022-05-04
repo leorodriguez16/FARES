@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  background: #E5E5E5;;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container-header{
+  display: grid;
+ grid-template-columns: 50% 50%;
+ width: 100%;
+ height: 4rem; 
+ background-color: gray; 
+ align-items: center;
+}
+.part1{
+display: flex;
+justify-content:flex-start;
+margin: 1rem;
+}
+.part2{
+display: flex;
+justify-content: flex-end;
+margin: 1rem;
+}
+.logo{
+  display: flex;
+  margin: 1rem;
+  background:#EA53BF;
+  height: 2rem;
+  width: 5rem;
+  border: #EA53BF 1px solid;
+ 
+}
+.part2 button{
+  height: 2rem;
+  width: 5rem;
+  background-color: #E35C5C;
+  border: #000 3px solid;
+}
+.conteiner-main{
+  width:100%;
+  height: 43rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+background: #E5E5E5;
+
+}
+.obj{
+  background-color: #51A654;
+  Width: 251px ;
+  Height: 160px;
+  margin: 1rem;
+}

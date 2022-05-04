@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  background: #E5E5E5;
+  ;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.contenedor-menu{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu button{
+  padding: 1.5rem 3rem;
+  font-size: 1rem;
+  border: 1px solid #000;
+  background-color: #b53;
+  height: 4rem;
+  width: 16rem;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+}
+button:hover{
+  box-shadow: 10px 5px 5px black;
+  background-color: red;
+}

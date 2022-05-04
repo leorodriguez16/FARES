@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.conteiner1{
+  display: grid;
+  grid-template-columns: 44px 95px 44px 718px 44px 95px 44px ;
+  justify-items: center;
+  width: 20rem;
+  height: 3rem;
+ align-items: center;
+ position: relative;
+ left: 8rem;
+}
+.boton1{
+  width: 88px;
+  height: 2rem;
+  background: #FF6060;
+  border: solid 1px red;
+}
+.boton2{
+    width: 88px;
+    height: 2rem;
+    background: #B352FF;
+  border: solid 1px #B352FF;
+  color: white;
+}
+.conteiner-barra{
+  width: 335px;
+  height: 63px;
+  align-content: center;
+  align-items: center;
+  background: rgba(255, 189, 189, 0.2)
+}
+.centrado{
+      display: grid;
+      align-items: center;
+      justify-content: center;
+}
+.barra{
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+.bg{
+height: 3rem;
+width: 44px;
+  background: rgba(255, 189, 189, 0.2);
+}

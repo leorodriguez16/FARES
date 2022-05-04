@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.contenedor1{
+  margin: 0.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+.Obj-1{
+  background-color:#66C8FF;;
+  height: 15.25rem;
+  width: 20.25rem;
+ margin: 2rem;
+}
+.contenedor2{
+  margin: 0.4rem;
+  display: flex;
+}
+
+.Obj-2{
+  background-color: #FF6666;
+  width: 48.438rem;
+  height: 15.25rem;
+  margin: 2rem;
+}
+.Obj-3{
+background-color: #46599C;
+width: 100%;
+height:55.125rem ;
+border: #fff solid 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.sub-obj{
+  background-color: #DE8080;
+  width: 22.313rem;
+height: 15.25rem;
+margin: 2rem;
+}
